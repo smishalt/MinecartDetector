@@ -1,17 +1,16 @@
-name: MineCart-Limiter
+name: MineCart-Detector
 version: '${project.version}'
-main: com.expectale.minecartlimiter.MineCartLimiter
+main: com.expectale.minecartdetector.MineCartDetector
 api-version: 1.18
-authors: [ blabouille ]
-description: allows you to limit minecart
-website: labocraft.fr
+authors: [ smish ]
+description: allows you to limit minecarts
 
 commands:
   ml:
-    permission: minecartlimiter.use
+    permission: minecartdetector.use
     description: This command is used to limit the number of minecrats in a chunk
 
 permissions:
-  minecartlimiter.use:
-    description: Use MineCart-Limiter plugin
+  minecartdetector.use:
+    description: Use MineCart-Detector plugin
     default: op
