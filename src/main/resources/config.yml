@@ -1,7 +1,7 @@
 Chunk:
   # The maximum number of minecarts that can be in a chunk,
   # if higher, all minecarts will be removed!
-  Trigger: 40
+  Trigger: 25
   # Do you want to check every x ('Refersh') minutes if there are more minecarts
   # than 'Trigger' in a chunk?
   Task:
@@ -24,9 +24,9 @@ Checks:
 # will be cleared only if they are more than 'Chunk -> Trigger' in a single chunk
 TPSMeter:
   # Do you want to enable this feature?
-  Enabled: false
-  # Under how many TPS must the server go down to trigger this event? ( Recommended 17 )
-  Trigger: 17
+  Enabled: true
+  # Under how many TPS must the server go down to trigger this event? ( Recommended 16 )
+  Trigger: 16
 
 Discord:
   Enabled: false
