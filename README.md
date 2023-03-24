@@ -12,8 +12,8 @@ Minecarts are one of the main lag sources on anarchy servers. This plugin will c
 - Open Source!
 
 ## Commands
-/ml reload - Reload the config file (Perms: minecartlimiter.use)
-/asl check - Show how many minecrat there are in your actual chunk (Perms: minecartlimiter.use)
+- /ml reload - Reload the config file (Perms: minecartlimiter.use)
+- /asl check - Show how many minecrat there are in your actual chunk (Perms: minecartlimiter.use)
 
 ## Download
 https://github.com/smishalt/MinecartDetector/releases/tag/latest
